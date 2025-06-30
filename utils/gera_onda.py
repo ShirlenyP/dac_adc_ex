@@ -11,8 +11,8 @@ BAUD_RATE = 115200
 
 #CMD_RECEIVE_INT = 1
 #CMD_SEND_INT = 2
-CMD_RECEIVE_VECTOR = 1
-CMD_SEND_VECTOR = 2
+CMD_RECEIVE_VECTOR = 3
+CMD_SEND_VECTOR = 4
 
 def gerar_vetor_dac_parametrizado(frequencia_onda, amostras_por_ciclo, dac_bits, amplitude_normalizada,porcentagem_quinta,porcentagem_setima):
     if amostras_por_ciclo <= 0:
@@ -36,8 +36,8 @@ def gerar_vetor_dac_parametrizado(frequencia_onda, amostras_por_ciclo, dac_bits,
     dac_valores = [
         int(round(max(0, min(offset + 
                              amplitude_dac * math.sin(2 * math.pi * i / amostras_por_ciclo)+
-                             amplitude_dac_quinta * math.sin(5 * 2 * math.pi * i / amostras_por_ciclo) +
-                             amplitude_dac_setima * math.sin(7 * 2 * math.pi * i / amostras_por_ciclo),
+                             amplitude_dac_quinta * math.sin(41 * 2 * math.pi * i / amostras_por_ciclo) +
+                             amplitude_dac_setima * math.sin(42 * 2 * math.pi * i / amostras_por_ciclo),
                              max_dac_val))))
         for i in range(amostras_por_ciclo)
     ]
