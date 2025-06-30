@@ -126,5 +126,5 @@ GEN_OPTS__QUOTED :=
 SUBDIRS := \
 . \
 device \
-utils \
+src \
 

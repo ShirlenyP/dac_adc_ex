@@ -93,6 +93,7 @@ main.obj: C:/ti/Projetos\ meus/dac_adc_ex/device/device.h
 main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/math.h
 main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_defs.h
 main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h
+main.obj: C:/ti/Projetos\ meus/dac_adc_ex/src/scicomm.h
 
 ../main.c:
 
@@ -279,4 +280,6 @@ C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/math.h:
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_defs.h:
 
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h:
+
+C:/ti/Projetos\ meus/dac_adc_ex/src/scicomm.h:
 

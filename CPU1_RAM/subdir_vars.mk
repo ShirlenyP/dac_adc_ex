@@ -17,6 +17,7 @@ C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/ccs/Debug/driverlib
 C_SRCS += \
 ./syscfg/board.c \
 ./syscfg/c2000ware_libraries.c \
+../dac_buffer_values.c \
 ../main.c 
 
 GEN_FILES += \
@@ -31,6 +32,7 @@ GEN_MISC_DIRS += \
 C_DEPS += \
 ./syscfg/board.d \
 ./syscfg/c2000ware_libraries.d \
+./dac_buffer_values.d \
 ./main.d 
 
 GEN_OPTS += \
@@ -40,6 +42,7 @@ GEN_OPTS += \
 OBJS += \
 ./syscfg/board.obj \
 ./syscfg/c2000ware_libraries.obj \
+./dac_buffer_values.obj \
 ./main.obj 
 
 GEN_MISC_FILES += \
@@ -58,6 +61,7 @@ GEN_MISC_DIRS__QUOTED += \
 OBJS__QUOTED += \
 "syscfg\board.obj" \
 "syscfg\c2000ware_libraries.obj" \
+"dac_buffer_values.obj" \
 "main.obj" 
 
 GEN_MISC_FILES__QUOTED += \
@@ -73,6 +77,7 @@ GEN_MISC_FILES__QUOTED += \
 C_DEPS__QUOTED += \
 "syscfg\board.d" \
 "syscfg\c2000ware_libraries.d" \
+"dac_buffer_values.d" \
 "main.d" 
 
 GEN_FILES__QUOTED += \
@@ -87,6 +92,7 @@ SYSCFG_SRCS__QUOTED += \
 C_SRCS__QUOTED += \
 "./syscfg/board.c" \
 "./syscfg/c2000ware_libraries.c" \
+"../dac_buffer_values.c" \
 "../main.c" 
 
 
