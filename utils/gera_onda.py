@@ -1,3 +1,4 @@
+
 import math
 import datetime
 import serial
@@ -36,8 +37,8 @@ def gerar_vetor_dac_parametrizado(frequencia_onda, amostras_por_ciclo, dac_bits,
     dac_valores = [
         int(round(max(0, min(offset + 
                              amplitude_dac * math.sin(2 * math.pi * i / amostras_por_ciclo)+
-                             amplitude_dac_quinta * math.sin(41 * 2 * math.pi * i / amostras_por_ciclo) +
-                             amplitude_dac_setima * math.sin(42 * 2 * math.pi * i / amostras_por_ciclo),
+                             amplitude_dac_quinta * math.sin(70 * 2 * math.pi * i / amostras_por_ciclo) +
+                             amplitude_dac_setima * math.sin(160 * 2 * math.pi * i / amostras_por_ciclo),
                              max_dac_val))))
         for i in range(amostras_por_ciclo)
     ]

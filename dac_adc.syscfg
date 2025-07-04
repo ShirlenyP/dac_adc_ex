@@ -63,6 +63,8 @@ sci1.sci.scitxdPin.$assign      = "GPIO42";
 sci1.rxQual.$name               = "myGPIOQUAL0";
 sci1.txQual.$name               = "myGPIOQUAL1";
 sci1.sciRXInt.enableInterrupt   = true;
+scripting.suppress("Not pinned out,@@@.+?@@@ is not pinned out on the LaunchPad F28379D\\.  @@@.+?@@@", sci1.sci, "scirxdPin");
+scripting.suppress("Not pinned out,@@@.+?@@@ is not pinned out on the LaunchPad F28379D\\.  @@@.+?@@@", sci1.sci, "scitxdPin");
 
 /**
  * Pinmux solution for unlocked pins/peripherals. This ensures that minor changes to the automatic solver in a future

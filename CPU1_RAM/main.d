@@ -1,7 +1,7 @@
 # FIXED
 
 main.obj: ../main.c
-main.obj: C:/ti/Projetos\ meus/dac_adc_ex/device/driverlib.h
+main.obj: C:/Users/Dell/Desktop/Projetos/dac_adc_ex/device/driverlib.h
 main.obj: C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h
 main.obj: C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/adc.h
 main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/stdbool.h
@@ -87,17 +87,17 @@ main.obj: C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/upp.h
 main.obj: C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_upp.h
 main.obj: C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/version.h
 main.obj: C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h
-main.obj: C:/ti/Projetos\ meus/dac_adc_ex/device/device.h
+main.obj: C:/Users/Dell/Desktop/Projetos/dac_adc_ex/device/device.h
 main.obj: syscfg/board.h
-main.obj: C:/ti/Projetos\ meus/dac_adc_ex/device/device.h
+main.obj: C:/Users/Dell/Desktop/Projetos/dac_adc_ex/device/device.h
 main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/math.h
 main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_defs.h
 main.obj: C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h
-main.obj: C:/ti/Projetos\ meus/dac_adc_ex/src/scicomm.h
+main.obj: C:/Users/Dell/Desktop/Projetos/dac_adc_ex/src/scicomm.h
 
 ../main.c:
 
-C:/ti/Projetos\ meus/dac_adc_ex/device/driverlib.h:
+C:/Users/Dell/Desktop/Projetos/dac_adc_ex/device/driverlib.h:
 
 C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/inc/hw_memmap.h:
 
@@ -269,11 +269,11 @@ C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/version.h:
 
 C:/ti/c2000/C2000Ware_5_04_00_00/driverlib/f2837xd/driverlib/driver_inclusive_terminology_mapping.h:
 
-C:/ti/Projetos\ meus/dac_adc_ex/device/device.h:
+C:/Users/Dell/Desktop/Projetos/dac_adc_ex/device/device.h:
 
 syscfg/board.h:
 
-C:/ti/Projetos\ meus/dac_adc_ex/device/device.h:
+C:/Users/Dell/Desktop/Projetos/dac_adc_ex/device/device.h:
 
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/math.h:
 
@@ -281,5 +281,5 @@ C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/_defs.h:
 
 C:/ti/ccs1281/ccs/tools/compiler/ti-cgt-c2000_22.6.1.LTS/include/machine/_limits.h:
 
-C:/ti/Projetos\ meus/dac_adc_ex/src/scicomm.h:
+C:/Users/Dell/Desktop/Projetos/dac_adc_ex/src/scicomm.h:
 
