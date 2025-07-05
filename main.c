@@ -10,7 +10,7 @@
 // Main
 //
 #define TAM_BUFFER_DAC 200
-#define TAM_BUFFER_ADC  500
+#define TAM_BUFFER_ADC  200
 extern uint16_t dac_buffer[];
 volatile uint16_t adc_buffer[TAM_BUFFER_ADC];
 volatile float gain = 1.0f;
@@ -21,7 +21,7 @@ volatile Protocol_Header_t g_prot_header = {CMD_NONE,0};
 volatile int g_dado;
 volatile uint16_t  g_vetor[TAM_BUFFER_DAC];
 volatile uint16_t g_vetor_qtd = 0;
-volatile uint16_t cnt_adc = 0; // GLOBAL
+//volatile uint16_t cnt_adc = 0; // GLOBAL
 
 
 void main(void)
